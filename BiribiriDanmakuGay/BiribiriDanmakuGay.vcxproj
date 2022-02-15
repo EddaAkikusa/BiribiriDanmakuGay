@@ -164,23 +164,18 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.c" />
-    <ClCompile Include="session.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="bdg.h" />
     <ClInclude Include="resource.h" />
-    <ClInclude Include="session.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="res.rc" />
   </ItemGroup>
   <ItemGroup>
-    <Xsd Include="manifest.xml">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
-    </Xsd>
+    <None Include=".editorconfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="manifest.xml" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

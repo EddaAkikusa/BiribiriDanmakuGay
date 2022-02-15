@@ -1,4 +1,8 @@
-#include "bdg.h"
+#include <WinSock2.h>
+#include <Windows.h>
+#include "resource.h"
+
+extern IMAGE_DOS_HEADER __ImageBase;
 
 static INT_PTR CALLBACK MainDialogProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam)
 {
