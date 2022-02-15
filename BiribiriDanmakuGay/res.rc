@@ -13,11 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 中文(简体，中国) resources
+// 涓枃(绠�浣擄紝涓浗) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
-#pragma code_page(936)
+#pragma code_page(65001)
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -56,9 +56,9 @@ CAPTION "Dialog"
 FONT 8, "MS Shell Dlg", 400, 0, 0x1
 BEGIN
     EDITTEXT        IDC_EDIT_ROOMID,92,21,105,14,ES_AUTOHSCROLL
-    LTEXT           "房间号：",IDC_STATIC_ROOMID,45,24,29,8
+    LTEXT           "鎴块棿鍙凤細",IDC_STATIC_ROOMID,45,24,29,8
     CONTROL         "",IDC_LIST_DANMAKU,"SysListView32",LVS_REPORT | LVS_ALIGNLEFT | WS_BORDER | WS_TABSTOP,7,48,344,204
-    PUSHBUTTON      "连接",IDC_BUTTON_ACTION,217,20,50,14
+    PUSHBUTTON      "杩炴帴",IDC_BUTTON_ACTION,217,20,50,14
 END
 
 
@@ -91,7 +91,7 @@ BEGIN
     0
 END
 
-#endif    // 中文(简体，中国) resources
+#endif    // 涓枃(绠�浣擄紝涓浗) resources
 /////////////////////////////////////////////////////////////////////////////
 
 

@@ -1,6 +1,14 @@
 #pragma once
+
+#include <WinSock2.h>
 #include <Windows.h>
-#include "resource.h"
 
 extern IMAGE_DOS_HEADER __ImageBase;
-HINSTANCE g_hInstance = (HINSTANCE)&__ImageBase;
+
+static HINSTANCE GetInstance(void)
+{
+    return (HINSTANCE)&__ImageBase;
+}
+
+#include "resource.h"
+#include "session.h"
