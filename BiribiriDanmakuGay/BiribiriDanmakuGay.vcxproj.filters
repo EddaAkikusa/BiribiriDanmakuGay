@@ -30,9 +30,8 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include=".editorconfig">
-      <Filter>资源文件</Filter>
-    </None>
+    <None Include="..\README.md" />
+    <None Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
     <Xml Include="manifest.xml">

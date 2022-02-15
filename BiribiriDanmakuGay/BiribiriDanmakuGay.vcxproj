@@ -176,6 +176,7 @@
     <ResourceCompile Include="res.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\README.md" />
     <None Include=".editorconfig" />
   </ItemGroup>
   <ItemGroup>
