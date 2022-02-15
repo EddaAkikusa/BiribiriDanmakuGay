@@ -12,3 +12,5 @@
 - `res.rc`
 - `resource.h`
 - `manifest.xml`
+
+哦，对，只打算支持 Windows 11 及以上。
